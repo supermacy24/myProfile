@@ -1,0 +1,49 @@
+
+.header{
+    display:flex;
+    position: fixed;
+    top:0;
+    height:70px;
+    align-items:center;
+    background-color:rgb(41, 41, 41);
+    scroll-padding-top: 0;
+}
+
+.header a{
+    display:flex;
+    text-decoration: none;
+    align-items:center;
+    cursor:pointer;
+    color:#00bfff;
+}
+
+.navBar{
+    display:flex;
+    margin-left:10px;
+    text-decoration:none;
+    align-items:center;
+}
+
+.navBar a{
+    margin-right:10px;
+    font-size:15px;
+    cursor:pointer;
+}
+.navBar a:hover{
+    border-bottom: 1px solid #00bfff;
+}
+
+.mat-button{
+    color:#00bfff;
+}
+
+.mat-button:hover{
+    background-color:#2c6476
+}
+
+.buttons{
+    display: flex;
+    position: absolute;
+    right:0;
+    margin-right:10px;
+}
