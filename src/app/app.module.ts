@@ -10,6 +10,10 @@ import { HomeComponent } from './views/home/home.component';
 import { SobreComponent } from './views/sobre/sobre.component';
 import { MatCardModule } from '@angular/material/card';
 import { MatButtonModule } from '@angular/material/button'
+import { MatIconModule } from '@angular/material/icon';
+import { BarRatingModule } from "ngx-bar-rating";
+import { NgxSkillBarModule } from "ngx-skill-bar";
+import { ContactoComponent } from './views/contacto/contacto.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +21,7 @@ import { MatButtonModule } from '@angular/material/button'
     HeaderComponent,
     HomeComponent,
     SobreComponent,
+    ContactoComponent,
 
   ],
   imports: [
@@ -25,7 +30,10 @@ import { MatButtonModule } from '@angular/material/button'
     BrowserAnimationsModule,
     MatToolbarModule,
     MatCardModule,
-    MatButtonModule
+    MatButtonModule,
+    MatIconModule,
+    BarRatingModule,
+    NgxSkillBarModule
 
   ],
   providers: [],
