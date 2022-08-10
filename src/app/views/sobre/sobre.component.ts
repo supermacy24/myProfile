@@ -6,6 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./sobre.component.css']
 })
 export class SobreComponent implements OnInit {
+ 
+ 
+  numberOfBars: number = 10;
 
   constructor() { }
 

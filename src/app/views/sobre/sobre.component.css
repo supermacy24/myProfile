@@ -1,5 +1,23 @@
 .container{
     width: 100%;
     height: 100%;
-    background-color: red;
+    display:flex;
+}
+
+.content{
+   
+    display:flex;
+    position:relative;
+    z-index:-1;
+    width:100%;
+    margin:100px;
+}
+
+.mat-card{
+    width:inherit;
+    margin:50px;
+}
+
+.mat-card-content{
+    line-height: 50px;;
 }
