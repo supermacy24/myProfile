@@ -1,6 +1,7 @@
 # MyProfile
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.1.
+It is an experimental Personal Portfolio made with Angular.
 
 ## Development server
 
