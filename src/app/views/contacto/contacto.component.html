@@ -1,1 +1,28 @@
-<p>contacto works!</p>
+<div class="container" id="contactos">
+    <div class="content">
+
+    <mat-card>
+        <mat-card-title>
+            Entre em contacto
+        </mat-card-title>
+        <mat-card-subtitle>
+            Preencha os campos para entrar em contacto comigo
+        </mat-card-subtitle>
+        <mat-card-content>
+           <form>
+            <mat-form-field>
+                <input required autocomplete="off" placeholder="Nome" matInput/>
+            </mat-form-field>
+            <mat-form-field>
+                <input required autocomplete="off" type="email" placeholder="Email" matInput/>
+            </mat-form-field>
+            <mat-form-field>
+                <textarea required autocomplete="off" placeholder="Mensagem..." matInput></textarea>
+            </mat-form-field>
+            <button type="submit" mat-raised-button color="primary">Enviar</button>
+           </form>
+        </mat-card-content>
+    </mat-card>
+ 
+    </div>
+</div>

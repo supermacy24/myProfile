@@ -10,8 +10,11 @@
             </mat-card-subtitle>
             <mat-card-content>
                 <p>
-                    O meu nome é Tiago Lopes, tenho 30 anos e sou um software developer.Tenho uma licenciatura em Engenharia Informática pela Universidade Lusófona do Porto. Apaixonado por design e por fazer coisas novas.
-                    Nos meus tempos livres o que mais gosto de fazer é jogar jogos de vídeo praticar desporto e fazer e ouvir música.
+                    O meu nome é Tiago Lopes, tenho 30 anos e sou um software developer.Tenho uma licenciatura em
+                    Engenharia Informática pela Universidade Lusófona do Porto. Apaixonado por design e por fazer coisas
+                    novas.
+                    Nos meus tempos livres o que mais gosto de fazer é jogar jogos de vídeo praticar desporto e fazer e
+                    ouvir música.
                 </p>
                 <!-- <img src="../../../assets/profile.jpg"/> -->
             </mat-card-content>
@@ -25,14 +28,38 @@
                 O que sei fazer
             </mat-card-subtitle>
             <mat-card-content>
-               <span>JAVASCRIPT</span> <ngx-skill-bar color="#00bfff" [numberOfBars]="numberOfBars" [percentage] = "10" ></ngx-skill-bar>
-               <span>ANGULAR</span> <ngx-skill-bar color="#00bfff" [numberOfBars]="numberOfBars" [percentage] = "30" ></ngx-skill-bar>
-               <span>C#</span> <ngx-skill-bar color="#00bfff" [numberOfBars]="numberOfBars" [percentage] = "74" ></ngx-skill-bar>
-               <span>HTML</span> <ngx-skill-bar color="#00bfff" [numberOfBars]="numberOfBars" [percentage] = "31" ></ngx-skill-bar>
-               <span>CSS</span> <ngx-skill-bar color="#00bfff" [numberOfBars]="numberOfBars" [percentage] = "24" ></ngx-skill-bar>
-               <span>JAVASCRIPT</span> <ngx-skill-bar color="#00bfff" [numberOfBars]="numberOfBars" [percentage] = "32" ></ngx-skill-bar>
+
+                <mat-tab-group>
+                    <mat-tab label="Linguagens">
+                        <span>JAVASCRIPT</span>
+                        <ngx-skill-bar color="#00bfff" [numberOfBars]="numberOfBars" [percentage]="10"></ngx-skill-bar>
+                        <span>ANGULAR</span>
+                        <ngx-skill-bar color="#00bfff" [numberOfBars]="numberOfBars" [percentage]="30"></ngx-skill-bar>
+                        <span>C#</span>
+                        <ngx-skill-bar color="#00bfff" [numberOfBars]="numberOfBars" [percentage]="74"></ngx-skill-bar>
+                        <span>HTML</span>
+                        <ngx-skill-bar color="#00bfff" [numberOfBars]="numberOfBars" [percentage]="31"></ngx-skill-bar>
+                    </mat-tab>
+
+                    <mat-tab label="Frameworks">
+                        <span>CSS</span>
+                        <ngx-skill-bar color="#00bfff" [numberOfBars]="numberOfBars" [percentage]="24"></ngx-skill-bar>
+                        <span>JAVASCRIPT</span>
+                        <ngx-skill-bar color="#00bfff" [numberOfBars]="numberOfBars" [percentage]="32"></ngx-skill-bar>
+                    </mat-tab>
+
+                    <mat-tab label="Third">
+                        <span>CSS</span>
+                        <ngx-skill-bar color="#00bfff" [numberOfBars]="numberOfBars" [percentage]="24"></ngx-skill-bar>
+                        <span>JAVASCRIPT</span>
+                        <ngx-skill-bar color="#00bfff" [numberOfBars]="numberOfBars" [percentage]="32"></ngx-skill-bar>
+                    </mat-tab>
+                </mat-tab-group>
+
+
+
             </mat-card-content>
-            
+
         </mat-card>
 
     </div>

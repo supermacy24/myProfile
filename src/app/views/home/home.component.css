@@ -3,15 +3,21 @@
     height: 100%;
     background-color: deepskyblue;
      margin-top:70px;
-    display:table;
+    display:flex;
     text-align:center;
-    background-image:url('../../../assets/fundo.jpg') ;
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: cover; /* Resize the background image to cover the entire container */
+    background: rgb(0,191,255);
+    background: linear-gradient(121deg, rgba(0,191,255,1) 0%, rgba(34,68,72,1) 30%, rgba(41,41,32,1) 60%, rgba(0,191,255,1) 100%);
+    /* background-image:url('../../../assets/fundo.jpg') ; */
+
+    /* Do not repeat the image */
+    /* background-repeat: no-repeat; */
+    
+    /* Resize the background image to cover the entire container */
+    /* background-size: cover; */
 }
 
 
-.container h1{
+/* .container h1{
     display:table-cell;
      vertical-align:middle;
      font-size:90px;
@@ -19,6 +25,47 @@
      color:#fff;
      border-bottom: solid 1px #666;
      
+} */
+
+
+.content{
+   
+    display:flex;
+    position:relative;
+    width:100%;
+    margin:100px 100px 0 100px;
+}
+.content div{
+    width:100%;
+    display: table;
+    vertical-align:middle;
+}
+.content span{
+    width:50%;
+    display:table-cell;
+    vertical-align:middle;
+}
+.content img{
+    height:103%;
 }
 
+
+
+.presentation {
+    color:#fff;
+    font-size:100px;
+    font-weight: bolder;
+}
+
+.presentation a{
+    font-size:15px;
+    font-weight: lighter;
+    color:rgb(172, 172, 172);
+   
+    margin-left: 60%;
+}
+
+.picColor{
+    display: none;
+}
 

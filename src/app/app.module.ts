@@ -14,6 +14,10 @@ import { MatIconModule } from '@angular/material/icon';
 import { BarRatingModule } from "ngx-bar-rating";
 import { NgxSkillBarModule } from "ngx-skill-bar";
 import { ContactoComponent } from './views/contacto/contacto.component';
+import { FooterComponent } from './components/template/footer/footer.component';
+import { MatInputModule } from '@angular/material/input';
+import { MatTabsModule } from '@angular/material/tabs';
+
 
 @NgModule({
   declarations: [
@@ -22,6 +26,7 @@ import { ContactoComponent } from './views/contacto/contacto.component';
     HomeComponent,
     SobreComponent,
     ContactoComponent,
+    FooterComponent,
 
   ],
   imports: [
@@ -33,7 +38,10 @@ import { ContactoComponent } from './views/contacto/contacto.component';
     MatButtonModule,
     MatIconModule,
     BarRatingModule,
-    NgxSkillBarModule
+    NgxSkillBarModule,
+    MatInputModule,
+    MatTabsModule,
+  
 
   ],
   providers: [],
