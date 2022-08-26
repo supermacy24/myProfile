@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ViewportScroller } from '@angular/common';
 
+
 @Component({
   selector: 'app-header',
   templateUrl: './header.component.html',
@@ -19,5 +20,8 @@ export class HeaderComponent implements OnInit {
   toSobre() {
     this.scroller.scrollToAnchor("sobre");
   }
-
+  toContactos(){
+    this.scroller.scrollToAnchor("contactos");
+  }
+  
 }
